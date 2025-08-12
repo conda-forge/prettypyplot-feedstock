@@ -16,13 +16,14 @@ build:
 
 requirements:
   host:
+    - python >=3.9
+    - hatchling
     - pip
-    - python >=3.6
   run:
-    - decorit >=0.2.0
+    - python >=3.9
     - matplotlib-base
     - numpy
-    - python >=3.6
+    - decorit >=0.2.0
 
 test:
   imports:
