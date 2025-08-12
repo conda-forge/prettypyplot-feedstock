@@ -1,13 +1,14 @@
 {% set name = "prettypyplot" %}
-{% set version = "0.11.0" %}
+{% set version = "0.12.0" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/prettypyplot-{{ version }}.tar.gz
-  sha256: 54886789899ea9f6eb4d7427fc68042f80bf9679711e9b037c95ea424271e304
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/prettypyplot-{{ version }}.tar.gz
+  sha256: f668cfd9101e6ecb6ee2f6ab25cd5f65180f2a57e0bd63dd70cd6ed66c8edf9e
 
 build:
   noarch: python
@@ -16,13 +17,14 @@ build:
 
 requirements:
   host:
+    - python {{ python_min }}
+    - hatchling
     - pip
-    - python >=3.6
   run:
-    - decorit >=0.2.0
+    - python >={{ python_min }}
     - matplotlib-base
     - numpy
-    - python >=3.6
+    - decorit >=0.2.0
 
 test:
   imports:
@@ -30,6 +32,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
