@@ -1,5 +1,6 @@
 {% set name = "prettypyplot" %}
 {% set version = "0.12.0" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
@@ -16,11 +17,11 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - hatchling
     - pip
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - matplotlib-base
     - numpy
     - decorit >=0.2.0
@@ -31,6 +32,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
