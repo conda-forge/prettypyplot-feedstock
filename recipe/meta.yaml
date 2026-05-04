@@ -42,13 +42,7 @@ about:
   license_family: BSD
   license_file: LICENSE
   doc_url: https://braniii.github.io/prettypyplot
-home: https://github.com/braniii/prettypyplot
-summary: Wrapper for matplotlib to generate publication-ready figures
-license: BSD-3-Clause
-license_family: BSD
-license_file: LICENSE
-doc_url: https://braniii.github.io/prettypyplot
-dev_url: https://github.com/braniii/prettypyplot
+  dev_url: https://github.com/braniii/prettypyplot
 
 extra:
   recipe-maintainers:
