@@ -36,7 +36,7 @@ test:
     - pip
 
 about:
-  home: https://gitlab.com/braniii/prettypyplot
+  home: https://github.com/braniii/prettypyplot
   summary: Wrapper for matplotlib to generate publication-ready figures
   license: BSD-3-Clause
   license_family: BSD
