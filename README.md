@@ -3,15 +3,15 @@ About prettypyplot-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/prettypyplot-feedstock/blob/main/LICENSE.txt)
 
-Home: https://gitlab.com/braniii/prettypyplot
+Home: https://github.com/braniii/prettypyplot
 
 Package license: BSD-3-Clause
 
 Summary: Wrapper for matplotlib to generate publication-ready figures
 
-Development: https://gitlab.com/braniii/prettypyplot
+Development: https://github.com/braniii/prettypyplot
 
-Documentation: https://braniii.gitlab.io/prettypyplot
+Documentation: https://braniii.github.io/prettypyplot
 
 Current build status
 ====================
