@@ -1,5 +1,5 @@
 {% set name = "prettypyplot" %}
-{% set version = "0.13.2" %}
+{% set version = "0.13.3" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/prettypyplot-{{ version }}.tar.gz
-  sha256: 56fd39f51f0959fc1da2e1b34c4522199aec92dad82d38f9fd2cbaff2013766d
+  sha256: 9a1251356bc7d389ed81c4dbf27a97ec311f56f1628734077eb45c69dd266890
 
 build:
   noarch: python
